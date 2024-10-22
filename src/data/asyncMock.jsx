@@ -57,20 +57,6 @@ export const products = [
         description: "Tercer celular de la compañia iPhone",
         stock: 10,
         img: "https://cloudfront-eu-central-1.images.arcpublishing.com/prisa/ADDOVQHKZVO5DKB7N3JK2QLCLI.jpg"
-
-<<<<<<< HEAD
-    },
-    {
-        id: 7,
-        name: "iPhone 7",
-        category: "Celulares",
-        price: "$ 199",
-        description: "Tercer celular de la compañia iPhone",
-        stock: 10,
-        img: "https://cloudfront-eu-central-1.images.arcpublishing.com/prisa/ADDOVQHKZVO5DKB7N3JK2QLCLI.jpg"
-
-=======
->>>>>>> 65382e6 (V 3 Segundo Proyecto)
     }
 ]
 
