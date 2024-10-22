@@ -2,7 +2,11 @@ export default function Item({ id, name, price, img }) {
     return (
         
 
+<<<<<<< HEAD
       <div className="flex flex-col items-center my-[25px] p-[15px] bg-[#f0f0f0] rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+=======
+      <div className="flex flex-col items-center mx-4 my-25px p-[15px] bg-[#f0f0f0] rounded-lg shadow-lg hover:scale-105 transition-transform duration-300">
+>>>>>>> 65382e6 (V 3 Segundo Proyecto)
        
         <img src={img} alt="Imagen de Producto" className="w-[150px] h-[150px] rounded-full" />
 

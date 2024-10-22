@@ -1,6 +1,12 @@
 'use client'
+<<<<<<< HEAD
 import React, { useState } from "react";
 import { words } from "../../data/data"; // Librería de palabras para la barra de búsqueda
+=======
+import React, { useState } from "react"
+import { words } from "../../data/data" // Librería de palabras para la barra de búsqueda
+import { Link } from "react-router-dom"
+>>>>>>> 65382e6 (V 3 Segundo Proyecto)
 
 function Header() {
     // Estado para gestionar la apertura del menú en dispositivos móviles
@@ -83,9 +89,22 @@ function Header() {
 
                 {/* Menú de navegación en pantallas grandes */}
                 <ul className="hidden md:flex items-center space-x-6 text-sm md:text-base lg:text-lg font-bold">
+<<<<<<< HEAD
                     <li><a href="#" className="text-white hover:text-gray-300">Inicio</a></li>
                     <li><a href="#" className="text-white hover:text-gray-300">Servicios</a></li>
                     <li><a href="#" className="text-white hover:text-gray-300">Contactos</a></li>
+=======
+                    <li>
+                    <Link to="/" className="text-white hover:text-gray-300">Inicio</Link>
+                    </li>
+                    <li>
+                    <Link to="/productos" className="text-white hover:text-gray-300">Productos</Link>
+                    </li>
+                    
+                    <li>
+                    <Link to="#contactos" className="text-white hover:text-gray-300">Contactos</Link>
+                    </li>
+>>>>>>> 65382e6 (V 3 Segundo Proyecto)
                 </ul>
 
                 {/* Botones de Sign In y Sign Up en pantallas grandes */}
@@ -115,7 +134,11 @@ function Header() {
                     </div>
                     <ul className="flex flex-col p-4 space-y-4">
                         <li><a href="#" className="text-white hover:text-gray-300" onClick={toggleMenu}>Inicio</a></li>
+<<<<<<< HEAD
                         <li><a href="#" className="text-white hover:text-gray-300" onClick={toggleMenu}>Servicios</a></li>
+=======
+                        <li><a href="#" className="text-white hover:text-gray-300" onClick={toggleMenu}>Productos</a></li>
+>>>>>>> 65382e6 (V 3 Segundo Proyecto)
                         <li><a href="#" className="text-white hover:text-gray-300" onClick={toggleMenu}>Contactos</a></li>
                         {/* Botones de Sign In y Sign Up en pantallas móviles */}
                         <li><button className="bg-cyan-900 rounded-lg text-white px-4 py-2 w-full text-sm md:text-base">Sign In</button></li>
